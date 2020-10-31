@@ -54,6 +54,8 @@ group :test do
   gem 'webdrivers'
   gem 'guard',                    '2.16.2'
   gem 'guard-minitest',           '2.4.4'
+  gem 'minitest'
+  gem 'minitest-reporters'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
